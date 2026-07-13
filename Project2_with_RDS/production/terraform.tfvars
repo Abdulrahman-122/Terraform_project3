@@ -1,0 +1,16 @@
+region              = "eu-west-3"
+ami_id              = "ami-0e1c4170d9c01184b"
+instance_count      = 1
+instance_type       = "t3.micro"
+security_group_name = "aws-sg-for-load-balancer"
+load_b              = "Terraform-lb"
+# domain_name         = "TTYAbdoTTy.com"
+environment       = "production"
+public_key        = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL0UC2aCDDT59efQwonJipHTgIapUxouQrGNQLEFCfMK abdo@archlinux"
+db_sec_group_name = "gym-rds-sec-group"
+db_instance_type  = "db.t3.micro"
+db_storage        = 20
+db_name           = "webdata"
+db_user           = "web"
+db_pass           = "web2334thoo"
+db_sub_name       = "gym-mariadb-subnet-group"

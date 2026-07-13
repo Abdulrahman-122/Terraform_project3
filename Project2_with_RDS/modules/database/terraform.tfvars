@@ -1,0 +1,7 @@
+region="eu-west-3"
+sec_group_name = "db-security-group"
+db_subnet_name = "postgres-subnet"
+db_name = "webdata"
+db_password = "Web123tthardpassword"
+db_username = "web"
+instance_type = "db.t3.micro"
