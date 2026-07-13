@@ -23,8 +23,3 @@ override.tf.json
 # OS files
 .DS_Store
 Thumbs.db
-mini_labs/
-test/
-Project1/
-
-
