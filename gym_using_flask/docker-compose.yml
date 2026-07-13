@@ -1,0 +1,19 @@
+services:
+  flask:
+    build: .
+    container_name: Flask_backend
+    ports:
+      - "5000:5000"
+    env_file:
+      - .env.production
+
+
+  react:
+    build: ./gym_frontend_vite
+    container_name: React_front
+    env_file:
+      - ./gym_frontend_vite/.env.docker
+    ports:
+      - "5173:5173"
+    depends_on:
+      - flask
